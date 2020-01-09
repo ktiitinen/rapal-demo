@@ -22,7 +22,7 @@ export default function Node(props) {
             
             <ul>
                 { children && children.map((child, i) => (
-                    <Node node={child} key={i}/>
+                    <Node node={child} key={child.name}/>
                 ))}
                 <li><a href="!#" onClick={addChild}>[Lisää]</a></li>
             </ul>
