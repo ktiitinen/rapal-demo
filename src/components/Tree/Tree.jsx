@@ -33,6 +33,8 @@ const tree = {
 
 export default function Tree() {
     return (
-        <Node node={tree} />
+        <ul>
+          <Node node={tree} />
+        </ul>
     );
 }

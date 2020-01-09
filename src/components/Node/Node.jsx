@@ -25,7 +25,7 @@ export default function Node(props) {
     }
 
     return (
-        <ul>
+        <>
             <li>{props.node.name}</li>
 
             <ul>
@@ -35,5 +35,5 @@ export default function Node(props) {
                 <li><a href="!#" onClick={addChild}>[Lisää]</a></li>
             </ul>
 
-        </ul>);
+        </>);
 }
