@@ -11,11 +11,13 @@ const tree = {
             children: [
                 {
                     name: "Noodi 1.1.1",
-                    children: []
+                    children: [],
+                    level: "1.1.1"
                 },
                 {
                     name: "Noodi 1.1.2",
-                    children: []
+                    children: [],
+                    level: "1.1.2"
                 }
             ],
             level: "1.1"
