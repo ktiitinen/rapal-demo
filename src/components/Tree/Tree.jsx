@@ -2,7 +2,7 @@ import React from 'react';
 
 import Node from '../Node/Node';
 
-// Example tree, if you don't want to show the example, set node in return function to null
+// Example tree, if you don't want to show the example, delete the prop node from component
 const tree = {
     name: "Noodi 1",
     children: [
