@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 export default function Node(props) {
+    // Set state from props if available, this is an anti-pattern and used just for demo purposes
     const [rootNode] = useState((props.node && props.node.name)?props.node.name:'Noodi 1');
     const [children, setChildren] = useState((props.node && props.node.children)?props.node.children:[]);
     const [level] = useState((props.node && props.node.level)?props.node.level:'1');
